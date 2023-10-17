@@ -1,6 +1,7 @@
 html {
   background-color: black;
   color: white;
+  font-family: serif;
 }
 
 header {
@@ -24,4 +25,18 @@ nav {
   margin-right: 25px;
   width: 200px;
   justify-content: space-evenly;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: grey;
+  border-radius: 30px;
 }
