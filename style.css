@@ -1,0 +1,27 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  background-color: gray;
+  justify-content: space-between;
+  align-self: flex-end;
+  border-radius: 30px;
+}
+
+.navName {
+  margin-bottom: 0%;
+  margin-left: 10px;
+  font-size: 38pt;
+
+}
+
+nav {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 25px;
+  width: 200px;
+  justify-content: space-evenly;
+}
