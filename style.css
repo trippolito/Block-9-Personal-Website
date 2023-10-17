@@ -8,11 +8,12 @@ header {
   display: flex;
   background-color: gray;
   border-radius: 30px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .navName {
   margin-bottom: 0%;
+  margin-left: 10px;
   font-size: 44pt;
 
 }
@@ -21,8 +22,19 @@ nav {
   display: flex;
   justify-content: space-between;
   margin-right: 100px;
-  width: 200px;
+  width: 300px;
   align-self: flex-end;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 16pt;
+}
+
+a:hover {
+  color: black;
+
 }
 
 #content {
