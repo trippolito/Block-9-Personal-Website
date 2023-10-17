@@ -81,3 +81,16 @@ footer {
   border: 2px solid black;
 
 }
+
+.work {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: grey;
+  border-radius: 30px;
+
+}
